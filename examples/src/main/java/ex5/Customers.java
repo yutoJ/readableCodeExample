@@ -39,7 +39,6 @@ public class Customers {
             Customer customer = it.next();
             if (customer.name() == "Tom") primeCustomers.add(customer);
         }
-
         return primeCustomers;
     }
 
