@@ -8,5 +8,5 @@ public interface BankAccountRepository {
 
     public Amount balance();
 
-    public void withDraw(Amount amount);
+    public void withdraw(Amount amount);
 }
