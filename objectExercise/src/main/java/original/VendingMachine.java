@@ -2,11 +2,11 @@ package original;
 
 public class VendingMachine {
 
-    int quantityOfCoke = 5; // コーラの在庫数
-    int quantityOfDietCoke = 5; // ダイエットコーラの在庫数
-    int quantityOfTea = 5; // お茶の在庫数
-    int numberOf100Yen = 10; // 100円玉の在庫
-    int charge = 0; // お釣り
+    private int quantityOfCoke = 5; // コーラの在庫数
+    private int quantityOfDietCoke = 5; // ダイエットコーラの在庫数
+    private int quantityOfTea = 5; // お茶の在庫数
+    private int numberOf100Yen = 10; // 100円玉の在庫
+    private int charge = 0; // お釣り
 
     /**
      * ジュースを購入する.

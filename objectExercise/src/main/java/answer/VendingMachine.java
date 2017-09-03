@@ -8,8 +8,8 @@ import java.util.Map;
  */
 public class VendingMachine {
 
-    Map<Drink, Integer> drinkStock = new HashMap<Drink, Integer>();
-    Map<Coin, Integer> coinStock = new HashMap<Coin, Integer>();
+    private final Map<Drink, Integer> drinkStock = new HashMap<Drink, Integer>();
+    private final Map<Coin, Integer> coinStock = new HashMap<Coin, Integer>();
 
     public VendingMachine() {
         this.load();

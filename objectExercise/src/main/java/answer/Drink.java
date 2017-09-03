@@ -1,5 +1,5 @@
 package answer;
 
 public enum Drink {
-    COKE, TEA, WATER;
+    COKE, TEA, WATER
 }

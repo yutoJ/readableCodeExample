@@ -9,8 +9,8 @@ import static org.junit.Assert.*;
 
 public class VendingMachineTest {
 
-    VendingMachine vendingMachine;
-    Coin[] returns;
+    private VendingMachine vendingMachine;
+    private Coin[] returns;
 
     @Before public void initialize() {
         vendingMachine = new VendingMachine();
