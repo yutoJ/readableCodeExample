@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>exercise</groupId>
-    <artifactId>objectExercise</artifactId>
+    <groupId>DesignPattern</groupId>
+    <artifactId>gof</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -30,6 +30,8 @@
             <scope>provided</scope>
         </dependency>
 
+
     </dependencies>
+
 
 </project>
