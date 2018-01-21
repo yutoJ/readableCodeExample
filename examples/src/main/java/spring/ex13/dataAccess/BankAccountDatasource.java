@@ -21,7 +21,8 @@ public class BankAccountDatasource implements BankAccountRepository {
     }
 
     @Override
-    public void withDraw(Amount amount) {
+    public void withdraw(Amount amount) {
 
     }
+
 }
