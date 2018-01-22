@@ -2,6 +2,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.stream.IntStream;
+
 import static org.junit.Assert.*;
 
 public class GameTest {
@@ -69,6 +71,16 @@ public class GameTest {
         assertEquals(28, game.totalScore());
         assertEquals(3, game.currentFrame());
     }
+
+    @Test
+    public void perfactGameTest(){
+        for (int i=0; i < 12; i++ ) game.add(10);
+        assertEquals(300, game.totalScore());
+        //TODO
+        assertEquals(11, game.currentFrame());
+    }
+
+
     @After
     public void tearDown() throws Exception {
     }

@@ -47,6 +47,7 @@ public class Game {
             firstThrow = true;
             currentFrame++;
         }
+        currentFrame = Math.min(11, currentFrame);
     }
 
     @Override
